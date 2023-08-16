@@ -1,27 +1,37 @@
-# ReservasFront
+# Sistema de generación de turnos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
+## Descripción
 
-## Development server
+Solución de agendamiento de turnos para que los clientes de varios comercios puedan reservar con anticipación un espacio
+de atención en un servicio específico que presta cada comercio.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Requisitos
 
-## Code scaffolding
+- Node.js y npm.
+- Angular CLI.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalación
 
-## Build
+1. Clona este repositorio:
+    ```bash
+    git clone https://github.com/lchaconw/generacion-turnos-front
+    cd generacion-turnos-front
+    ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Instala las dependencias:
+    ```bash
+    npm install
+    ```
 
-## Running unit tests
+3. Ejecuta el servidor de desarrollo:
+    ```bash
+    ng serve -o
+    ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Abre tu navegador y visita `http://localhost:4200/`.
 
-## Running end-to-end tests
+## Características
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- **Login:** Iniciar sesión con usuario y contraseña.
+- **Generación turnos:** Escoger comercio, servicio y fechas y horarios para generar los turnos y muestra el listado de
+  turnos generados.
