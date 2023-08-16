@@ -5,6 +5,12 @@
 Solución de agendamiento de turnos para que los clientes de varios comercios puedan reservar con anticipación un espacio
 de atención en un servicio específico que presta cada comercio.
 
+![Alt text](image.png)
+
+![Alt text](image-1.png)
+
+![Alt text](image-2.png)
+
 ## Requisitos
 
 - Node.js y npm.
